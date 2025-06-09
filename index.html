@@ -1,98 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Waste2Tote</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Waste2Tote | Upcycling Plastic Waste</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Waste2Tote</h1>
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#impact">Impact</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contact</a>
+    <div class="container header-container">
+      <h1 class="logo">Waste2Tote</h1>
+      <nav class="nav-links">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#mission" class="nav-item">Mission</a>
+        <a href="#impact" class="nav-item">Impact</a>
+        <a href="#team" class="nav-item">Team</a>
+        <a href="#contact" class="nav-item btn-primary">Get Involved</a>
       </nav>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
     </div>
   </header>
 
-  <section id="home" class="hero">
-    <div class="container">
-      <h2>Building communities and our tomorrow</h2>
-      <p>Transforming waste into purpose by upcycling plastic wrappers into reusable tote bags.</p>
+  <section id="home" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h2>Transforming Waste into Purpose</h2>
+      <p>
+        Collecting plastic wrappers and turning them into reusable tote bags,
+        empowering communities for a sustainable future.
+      </p>
+      <a href="#contact" class="btn-primary hero-btn">Join the Movement</a>
+
       <div class="stats">
-        <div><strong>300M+</strong><span>tonnes of plastic produced yearly</span></div>
-        <div><strong>8M+</strong><span>tonnes enter our oceans</span></div>
-        <div><strong>1000+</strong><span>bags distributed so far</span></div>
+        <div class="stat">
+          <i class="fas fa-industry fa-3x stat-icon"></i>
+          <h3>300M+</h3>
+          <p>Tonnes of plastic produced yearly</p>
+        </div>
+        <div class="stat">
+          <i class="fas fa-water fa-3x stat-icon"></i>
+          <h3>8M+</h3>
+          <p>Tonnes enter our oceans</p>
+        </div>
+        <div class="stat">
+          <i class="fas fa-hand-holding-heart fa-3x stat-icon"></i>
+          <h3>1000+</h3>
+          <p>Bags distributed so far</p>
+        </div>
       </div>
-      <a href="#contact" class="btn">Join the Movement</a>
     </div>
   </section>
 
-  <section id="about">
-    <div class="container">
-      <h2>About the Initiative</h2>
-      <p>Every year, over 300 million tonnes of plastic are produced globally—and at least 8 million tonnes end up in our oceans. Often non‑biodegradable, these items choke wildlife, pollute, and exacerbate the climate crisis.</p>
-      <p>At Waste2Tote, we flip the script. We collect plastic waste—wrappers, bags, packaging—and turn them into durable tote bags. Through creative upcycling and community engagement, we give waste a second life—and spread the message that change starts with us.</p>
+  <section id="about" class="section-light">
+    <div class="container section-content">
+      <h2>About Waste2Tote</h2>
+      <p>
+        Every year, over 300 million tonnes of plastic are produced worldwide.
+        At least 8 million tonnes pollute oceans, harming wildlife and the
+        environment.
+      </p>
+      <p>
+        Waste2Tote collects plastic wrappers and packaging and upcycles them
+        into durable, reusable tote bags. We combine creativity with community
+        action to reduce plastic waste and empower people.
+      </p>
       <p><em>Reuse. Rethink. Rebuild.</em></p>
     </div>
   </section>
 
-  <section id="impact">
-    <div class="container">
+  <section id="mission" class="section-dark">
+    <div class="container section-content">
+      <h2>Our Mission</h2>
+      <p>
+        To reduce plastic pollution by transforming waste into functional,
+        eco-friendly tote bags while educating and engaging communities in
+        sustainable practices.
+      </p>
+      <ul class="mission-list">
+        <li><i class="fas fa-check-circle"></i>Collect plastic waste responsibly</li>
+        <li><i class="fas fa-check-circle"></i>Empower communities through training</li>
+        <li><i class="fas fa-check-circle"></i>Promote sustainable alternatives</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="impact" class="section-light">
+    <div class="container section-content">
       <h2>Our Impact</h2>
-      <div class="cards">
+      <div class="impact-cards">
         <div class="card">
-          <h3>We Clean</h3>
-          <p>Participated in local clean‑ups in Panipat and surrounding areas—collecting plastic waste to upcycle.</p>
+          <i class="fas fa-trash fa-3x card-icon"></i>
+          <h3>Cleanups</h3>
+          <p>
+            Organized local plastic waste collection drives in Panipat and
+            nearby areas.
+          </p>
         </div>
         <div class="card">
-          <h3>We Create</h3>
-          <p>Upcycled wrappers into tote bags that are sold or distributed, empowering community members to earn sustainably.</p>
+          <i class="fas fa-tshirt fa-3x card-icon"></i>
+          <h3>Upcycling</h3>
+          <p>
+            Created hundreds of tote bags from upcycled wrappers that support
+            sustainable livelihoods.
+          </p>
         </div>
         <div class="card">
-          <h3>We Unite</h3>
-          <p>Built an eco-conscious community dedicated to reducing plastic waste and protecting our planet.</p>
+          <i class="fas fa-users fa-3x card-icon"></i>
+          <h3>Community</h3>
+          <p>
+            Built a passionate youth group spreading awareness and taking
+            environmental action.
+          </p>
         </div>
       </div>
       <div class="gallery">
-        <img src="https://artham1010.wixsite.com/…/Whatsapp_Image_2025-01-15.jpeg" alt="Workshop">
-        <img src="https://artham1010.wixsite.com/…/IMG_6307.jpeg" alt="Tote collection">
-        <!-- additional gallery images -->
+        <img
+          src="https://static.wixstatic.com/media/eb9370_2d73a9b1b0554caba063bed688e78bfc~mv2.jpeg"
+          alt="Workshop"
+        />
+        <img
+          src="https://static.wixstatic.com/media/eb9370_87b7eb9e8a47499cb7e4a3d49a9b931b~mv2.jpeg"
+          alt="Tote bags"
+        />
+        <img
+          src="https://static.wixstatic.com/media/eb9370_8328dfc0a3c94416bc3095bb3c94065d~mv2.jpeg"
+          alt="Clean up"
+        />
       </div>
     </div>
   </section>
 
-  <section id="team">
-    <div class="container">
-      <h2>Our Team</h2>
-      <p>We are a youth‑led group of volunteers passionate about sustainability, design, and community outreach.</p>
-      <!-- Optional: Add team photos and bios here -->
+  <section id="team" class="section-dark">
+    <div class="container section-content">
+      <h2>Meet The Team</h2>
+      <p>We are a group of passionate volunteers committed to a cleaner planet.</p>
+      <div class="team-grid">
+        <div class="team-member">
+          <img
+            src="https://randomuser.me/api/portraits/men/32.jpg"
+            alt="Artham Gupta"
+          />
+          <h3>Artham Gupta</h3>
+          <p>Founder & Coordinator</p>
+        </div>
+        <div class="team-member">
+          <img
+            src="https://randomuser.me/api/portraits/women/44.jpg"
+            alt="Priya Singh"
+          />
+          <h3>Priya Singh</h3>
+          <p>Design & Outreach</p>
+        </div>
+        <div class="team-member">
+          <img
+            src="https://randomuser.me/api/portraits/men/47.jpg"
+            alt="Rohit Kumar"
+          />
+          <h3>Rohit Kumar</h3>
+          <p>Operations Lead</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="contact">
-    <div class="container">
+  <section id="contact" class="section-light">
+    <div class="container section-content">
       <h2>Get Involved</h2>
-      <p>Want to help collect waste, stitch bags, or spread the word? Let’s make change happen together.</p>
-      <form action="mailto:your@email.com" method="post" enctype="text/plain">
-        <input type="text" name="Name" placeholder="Your Name" required>
-        <input type="email" name="Email" placeholder="Your Email" required>
-        <textarea name="Message" placeholder="How can you help?" rows="4"></textarea>
-        <button type="submit" class="btn">Send Message</button>
+      <p>
+        Interested in joining cleanups, helping create tote bags, or spreading
+        awareness? Reach out!
+      </p>
+      <form
+        action="mailto:your@email.com"
+        method="post"
+        enctype="text/plain"
+        class="contact-form"
+      >
+        <input
+          type="text"
+          name="Name"
+          placeholder="Your Name"
+          required
+          autocomplete="off"
+        />
+        <input
+          type="email"
+          name="Email"
+          placeholder="Your Email"
+          required
+          autocomplete="off"
+        />
+        <textarea
+          name="Message"
+          rows="5"
+          placeholder="How would you like to help?"
+          autocomplete="off"
+        ></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
       </form>
     </div>
   </section>
 
   <footer>
-    <div class="container">
-      <p>© 2025 Waste2Tote | Panipat, Haryana, India | Made with ♻️ by youth changemakers</p>
+    <div class="container footer-content">
+      <p>© 2025 Waste2Tote | Panipat, Haryana, India</p>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="#" aria-label="Instagram"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="#" aria-label="Twitter"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </div>
     </div>
   </footer>
+
+  <script>
+    // Mobile nav toggle
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("nav-active");
+      hamburger.querySelector("i").classList.toggle("fa-bars");
+      hamburger.querySelector("i").classList.toggle("fa-xmark");
+    });
+  </script>
 </body>
 </html>
-
